@@ -38,7 +38,7 @@ class Account(Timestamp):
 
     def __str__(self):
         '''String represention of Account.'''
-        return self.account_name
+        return self.name
 
     @property
     def created_at(self):
